@@ -16,6 +16,21 @@ section{
   height: 75%;
 }
 
+.green-section{
+  background: var(--green-color);
+}
+.blue-section{
+  background:var(--blue-color);
+}
+.blue-text{
+  color: var(--blue-color);
+}
+.black-text{
+  color: black;
+}
+.green-text{
+  color: var(--green-color);
+}
 /*--- navigation bar ---*/
 
 .navbar {
@@ -42,6 +57,7 @@ button{
   padding: 10px 5px;
   font-size: 16px;
   border: 2px solid var(--green-color);
+  cursor: pointer;
 }
 button:hover{
   background:white;
