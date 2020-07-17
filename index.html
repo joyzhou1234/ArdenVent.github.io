@@ -13,7 +13,7 @@
 <body>
 
 	<nav class="navbar navbar-expand-md">
-		<img class="navbar-brand" src="assets/Logo_green_on_blue_wide.png" alt="Error Loading Image" style="width: 185px; height:50px; margin-left:8%;">
+		<img class="navbar-brand" src="assets/Logo_green_on_blue_wide.png" alt="Error Loading Image" style="width: 185px; height:55px; margin-left:8%;" href="#">
 		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -59,7 +59,7 @@
 					Your contribution will make a difference!
 				</h5>
 				<h4>
-					- 60 <sup>USD</sup> + <button> <B>Donate</B></button>
+					<span onclick="subtract()">-</span><span id="money">60</span> <sup>USD</sup> <span onclick="addition()">+</span> <button> <B>Donate</B></button>
 				</h4>
 			</div>
 		</center>
@@ -69,7 +69,11 @@
 	<section>3</section>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="local_files/js/bootstrap.min.js"></script>
-<script src="local_files/js/jquery-3.3.1.slim.js"></script>
+	<!-- local versions of ^-->
+	<script src="local_files/js/bootstrap.min.js"></script>
+	<script src="local_files/js/jquery-3.3.1.slim.js"></script>
+
+	<!-- index.js-->
+	<script src="js/index.js"></script>
 </body>
 </html>
