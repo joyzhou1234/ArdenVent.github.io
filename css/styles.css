@@ -18,10 +18,10 @@ section{
 }
 
 .green-section{
-  background: var(--green-color);
+  background-color: var(--green-color);
 }
 .blue-section{
-  background:var(--blue-color);
+  background-color:var(--blue-color);
 }
 .blue-text{
   color: var(--blue-color);
