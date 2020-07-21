@@ -93,3 +93,8 @@ span{
 .center{
   float:center;
 }
+
+.disabled {
+  overflow-x: hidden; //horizontal
+  overflow-y: scroll; //vertical
+}
