@@ -57,6 +57,13 @@ section{
 .navbar-collapse {
   justify-content: flex-end;
 }
+
+#im::after {
+  
+  opacity:.5;
+  z-index: -1;  
+}
+
 button{
   background: var(--green-color);
   color: var(--blue-color);
