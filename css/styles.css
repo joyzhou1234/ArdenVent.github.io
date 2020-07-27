@@ -1,4 +1,6 @@
-:root{
+
+@media (min-width: 1170px){
+  :root{
   --green-color:#8AD7BB;
   --blue-color:#243564;
 
@@ -71,6 +73,7 @@ button{
   font-size: 16px;
   border: 2px solid var(--green-color);
   cursor: pointer;
+  
 }
 button:hover{
   background:transparent;
@@ -92,22 +95,6 @@ button:hover{
   font-size: 16px;
   border: 2px solid var(--green-color);
 }
-
-.button3{
-  background: var(--green-color);
-  color: var(--blue-color);
-  padding: 10px 5px;
-  font-size: 16px;
-  border: 3px solid var(--blue-color);
-  cursor: pointer;
-}
-.button3:hover{
-  background:white;
-  color:var(--blue-color);
-  
-  border: 3px solid var(--blue-color);
-
-}
 span{
   cursor: pointer;
   margin-left: 2%;
@@ -115,4 +102,9 @@ span{
 }
 .center{
   float:center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
+
+} 
