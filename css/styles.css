@@ -1,5 +1,3 @@
-
-@media (min-width: 1170px){
   :root{
   --green-color:#8AD7BB;
   --blue-color:#243564;
@@ -109,5 +107,3 @@ span{
   margin-right: auto;
   text-align: center;
 }
-
-} 
